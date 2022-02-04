@@ -1,0 +1,560 @@
+/*for moving boxes, like LBC*/
+* {
+	position: relative;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #FFB7CE;
+}
+
+hr {
+	border-top: 5px dotted #D4AF37;
+	clear: left;
+}
+
+
+/*header formats*/
+h1 {
+	padding: 0;
+	margin: 0;
+	font-family: 'Fredoka One', cursive;
+	color: #BF0A30;
+	text-align: center;
+	text-shadow: 2px 3px #40161F;
+	font-size: xx-large;
+	
+}
+
+.wonder {
+	font-family: 'Satisfy', cursive;
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	color: #800000;
+	text-align: center;	
+	font-size: xx-large;
+}
+
+/*navpane formats*/
+nav > ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+nav > ul > li > a  {
+	font-family:  'Fredoka One', cursive;
+	font-size: x-large;
+	text-decoration: none;
+	text-align: center;
+	float: left;
+	color: #80364D;
+	background-color: #FF6B9A;
+	width: 150px;
+	height: 30px;
+	
+}
+ 
+ li a:visited {
+	color: brown;
+}
+ li a:hover {
+	color: white;
+}
+li a:active {
+	color: #8AF9FF;
+} 
+/*article formats: both MunYeong & website intro*/
+
+/*MunYeong GIF*/
+article > img {
+	width: 525px;
+	height: 300px;
+	border: 5px #5C4129;
+	border-radius: 10px;
+	overflow: auto;
+}
+
+/*MunYeong caption*/
+article > figcaption {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: medium;
+	font-style: italic;
+	text-align: center;
+	clear: left;
+}
+
+/*yellow box*/
+article > p {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: center;
+	background-color: #FAE363;
+	width: 500px;
+	border-radius: 10px;
+	box-shadow: 15px 15px #D4B419;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+	overflow:auto;
+	
+}
+
+/*centering them instead*/
+article > img, article > p {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+/*embedded yt vid formats*/
+aside > iframe {
+	border: 10px dashed yellow;
+	display: block;
+	margin: 0 auto;
+}
+
+aside > figcaption {
+	text-align: center;
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: medium;
+	font-style: italic;
+}
+
+aside > .wanna {
+	margin-top: 5px;	
+}
+
+/*word "Reference" format*/
+#ending > h5 {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: x-large;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+/*reference websites*/
+#ending > ul > li {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: smaller;
+	text-align: left;
+	list-style-type: square;
+}
+
+/*how author and facebook should appear*/
+#student, #social {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;	
+	float: left;
+	width: 50%;
+	overflow: auto;
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+
+#social > a > #b {
+	width: 50px;
+	height: 48px;
+}
+
+#social > a > #g, #social > a > #b {
+	margin: 0;
+	padding: 0;
+}
+#social > a > #g {
+	display: none;
+	width: 50px;
+	height: 48px;
+}
+
+#social:hover > a > #g {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social:hover > a >#b {
+	display: none;
+}
+
+/*format for author and fb*/
+footer > h4 {
+	font-family: 'Balsamiq Sans', cursive;
+	color:#BF0A30;
+	font-weight: bold;
+	font-style: none;
+	text-align: center;	
+}	 
+
+#student > p, #social > p {
+	clear: left;	
+}
+
+#social p a {
+	text-decoration:none;
+	color: black;
+}
+
+/*fb hover*/
+#social p a:hover {
+	color: blue;
+}
+
+/*start of OhMan page formats*/
+/*short essay format*/
+.essay {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: x-large;
+	text-align: center;
+}
+
+/*collage*/
+.essay > img {
+	clear: left;
+	border: 5px solid #D4AF37;
+	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+	height: 450px;
+	
+}
+
+/*collage caption*/
+.essay > figcaption {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: medium;
+	font-style: italic;
+	text-align: center;
+	/*clear: left;
+	margin-left: 8px;*/
+}
+
+.essay > h3 {
+	color: #BF0A30;
+	font-family: 'Fredoka One', sans-serif;
+	text-shadow: 2px 2px #73031B;
+	font-size: xx-large;
+	text-align: center;
+}
+
+/*take note*/
+em {
+	color: #800000;
+	font-weight: bold;
+}
+
+/*embedded youtube vid*/
+aside > .gp {
+	border: 5px dashed #D4AF37;
+	border-radius: 5px;	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+#embed, #feminist {
+	float: left;
+	width: 50%;
+	overflow: auto;
+	margin: 0;
+	padding:0;
+	text-align: center;
+}
+
+.GDA {
+	margin-top: 5px;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: center;
+}
+
+.GDA > #quote {
+	margin-right: 25px;
+	font-style: italic;
+	color: purple;
+}
+
+
+.GDA > #suffragist {
+	color: #800000;
+	font-size: medium;
+}
+
+footer > img {
+	width: 200px;
+	height: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+footer > p {
+	color: #800000;
+	font-family: 'Balsamiq Sans', cursive;
+	font-weight: bold;
+	font-size: large;
+	text-align: center;
+}
+
+/*fun facts*/
+aside h3{
+	text-align: center;
+	font-family: 'Balsamiq Sans', cursive;
+	font-size: x-large;
+	font-style: italic;
+	color: purple;
+	margin: 0;
+	padding: 0;
+}
+
+aside h5 {
+	margin: 0;
+	padding: 0;
+}
+
+aside h5, article > div, article > div > p, .listahan, h6, #pelikula p, #tulong p {
+	font-family: 'Balsamiq Sans', cursive;
+	color: #800000;
+}
+
+aside h5, article #shooketh, article > div >p, h6, #pelikula p, #tulong p {
+	text-align: center;
+}
+
+article h3 {
+	color: #BF0A30;
+	font-family: 'Fredoka One', sans-serif;
+	text-align: center;	
+	text-shadow: 2px 2px #73031B;
+	font-size: xx-large;
+	margin: 0;
+	padding: 0;
+}
+#shooketh {
+	font-size: large;
+	font-weight: bold;
+}
+
+article > div > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;	
+	
+}
+
+article > div >img:hover {
+	transform: scale(0.5, 0.5);
+}
+
+article > div > p {
+	background-color: #FAE363;
+	border-radius: 10px;
+	box-shadow: 15px 15px #D4B419;
+	padding: 5px 10px;
+	margin-bottom: 20px;
+}
+
+#llanes img {
+	width: 465px;
+	height: 536px
+}
+
+#color, #mono {
+	width: 125px;
+	height: 125px;
+}
+
+#blue, #pink {
+	width: 125;
+	height: 125px;
+}
+
+#mono, #pink {
+	display: none;
+}
+
+#pelikula, #tulong {
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+	float: left;
+}
+
+#pelikula a > #color, #tulong a > #blue {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#pelikula:hover #mono, #tulong:hover #pink {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#pelikula:hover #color, #tulong:hover #blue {
+	display: none;
+}
+
+
+.listahan h5 {
+	font-size: x-large;
+	margin: 0;
+	padding: 0;
+}
+
+.listahan ul > li {
+	list-style-type: square;
+	font-size: smaller;
+	
+}
+
+/*serotonin page format*/
+.short{
+	font-family: 'Balsamiq Sans,' cursive;
+}
+
+.manika > img {
+	width: 450px;
+	height: 600px;
+	border: 5px solid #D4AF37;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.manika figcaption {
+	font-family: 'Fredoka One', sans-serif;
+	font-size: xx-large;
+	color: #BF0A30;
+	text-shadow: 2px 2px #73031B;
+	text-align: center;
+}
+
+
+.dolly p {
+	font-family: 'Balsamiq Sans', cursive;
+	background-color: #FAE363;
+	border-radius: 10px;
+	box-shadow: 15px 15px #D4B419;
+	width: 340px;
+	height: 290px;
+	padding: 5px 10px;
+	margin-top:0;	
+	overflow:auto;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#playlist iframe {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+#playlist figcaption, #nohup {
+	font-family: 'Balsamiq Sans', cursive;
+	text-align: center;
+}
+
+#kdrama {
+	width: 50%; 
+	height: 0; 
+	padding-top: 56.2500%;
+	padding-bottom: 48px; 
+	box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); 
+	margin-top: 1.6em; 
+	margin-bottom: 0.9em; 
+	overflow: hidden;
+	border-radius: 8px; 
+	will-change: transform;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#kdrama iframe {
+	position: absolute;
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0; 
+	border: none; 
+	padding: 0;
+	margin: 0;
+}
+
+#nohup a{
+	color: black;
+}
+
+#nohup a:hover {
+	color: blue;
+}
+
+#ngalan {
+	width: 137px;
+	height:56px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/*attempts of resizing elements
+@media screen and (max-width: 600px;) {
+	#intro > img, p {
+		clear:left;
+		margin-left: 0;
+		width: 250px;
+		overflow: auto;
+	}
+	#intro > figcaption {
+		margin-left: 0;
+		margin-top: 50px;
+		text-align: center;
+	} 
+	
+	#article > img {
+		width: 100%;
+		margin-top:0;
+	}
+	
+	#embed > figcaption {
+		margin-left; 0;
+		text-align: center;
+		
+	}
+	
+	#feminist > #quote {
+		font-size: large;
+		height: 250px;
+		float:right;
+		padding: 50px;
+	}
+	
+	
+	#thanks > img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+}*/
